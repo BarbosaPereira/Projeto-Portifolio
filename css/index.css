@@ -19,9 +19,17 @@ header {
     background-color: rgb(70, 104, 196);
 }
 
-#icone {
-
+nav {
+    display: inline-block;
+    position: absolute;
+    width: 702px;
+    height: 60px;
+    left: 716px;
+    top: 11px;
+    margin-right: 100px;
 }
+
+#icone {}
 
 #button {
     display: inline-block;
@@ -51,11 +59,15 @@ a {
 
 h1 {
     font-family: 'mine';
+    font-size: 50px;
     color: #FFF;
     background: #3A4042;
     position: absolute;
     width: 627px;
     height: 184px;
+    line-height: 100px;
+    padding-left: 110px;
+    padding-right: 10px;
     left: 91px;
     top: 196px;
     box-shadow: 10px 10px 0px #000000;
