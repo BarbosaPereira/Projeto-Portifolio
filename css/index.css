@@ -17,15 +17,16 @@ para procurar de onde ela vem, e dizer o tipo de formato " format "  que ela pod
 
 header {
     background-color: rgb(70, 104, 196);
+    bottom:600px;
 }
 
 nav {
     display: inline-block;
     position: absolute;
-    width: 702px;
+    width: 802px;
     height: 60px;
-    left: 716px;
-    top: 11px;
+    left: 1100px;
+    top: 30px;
     margin-right: 100px;
 }
 
