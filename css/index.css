@@ -1,8 +1,25 @@
-
+/* 
+O @font-face serve para poder usar uma fonte não existente no banco de fontes do pc, voce tem que seguir a estrutura abaixo para poder
+fazer ela ser usada no seu código, após o @font-family , se abre um " { " e se nomeia como será chamada a fonte. depois um "src:" seguido de um " url ",(não sei pq ainda)
+para procurar de onde ela vem, e dizer o tipo de formato " format "  que ela pode ser, existem o " OTF e o TTF " depedendo de qual for tem que colocar dentro do " format() " as seguintes opções:
+(TTF = truetype) (OTF = opentype), existem outros, mas os mais comuns são esses dois. 😊
+*/
+@font-face {
+font-family: "mine";
+src: url('/fontes/pixel1.otf') format('opentype')
+, url('/fontes/pixel2.otf') format('opentype');
+font-weight: normal;
+font-style:  normal;
+}
 header{
-    background-color:aqua;
+    background-color:rgb(139, 35, 153);
  }
  a{
      color: aliceblue;
      font-size: 20px;
+ }
+
+ h1{
+    font-family:'mine';
+    color:aliceblue;
  }
