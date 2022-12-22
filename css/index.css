@@ -4,22 +4,63 @@ fazer ela ser usada no seu código, após o @font-family , se abre um " { " e se
 para procurar de onde ela vem, e dizer o tipo de formato " format "  que ela pode ser, existem o " OTF e o TTF " depedendo de qual for tem que colocar dentro do " format() " as seguintes opções:
 (TTF = truetype) (OTF = opentype), existem outros, mas os mais comuns são esses dois. 😊
 */
-@font-face {
-font-family: "mine";
-src: url('/fontes/pixel1.otf') format('opentype')
-, url('/fontes/pixel2.otf') format('opentype');
-font-weight: normal;
-font-style:  normal;
-}
-header{
-    background-color:rgb(139, 35, 153);
- }
- a{
-     color: aliceblue;
-     font-size: 20px;
- }
 
- h1{
-    font-family:'mine';
-    color:aliceblue;
- }
+
+@font-face {
+    font-family: "mine";
+    src: url('/fontes/pixel1.otf') format('opentype'), url('/fontes/pixel2.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**/
+
+header {
+    background-color: rgb(70, 104, 196);
+}
+
+#icone {
+
+}
+
+#button {
+    display: inline-block;
+    font-family: 'Press Start 2P';
+    background: #BA1F33;
+    height: 60px;
+    line-height: 60px;
+    ;
+    /*para centralizar o line-height tem que ter o mesmo tamanho do height*/
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+a {
+    color: #FFF;
+    font-family: "Fira Code";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    /* para saber todos os modelos de text decoration só ir buscar no site (mdn texte decoration)*/
+    margin-right: 30px;
+
+}
+
+
+h1 {
+    font-family: 'mine';
+    color: #FFF;
+    background: #3A4042;
+    position: absolute;
+    width: 627px;
+    height: 184px;
+    left: 91px;
+    top: 196px;
+    box-shadow: 10px 10px 0px #000000;
+}
+
+h2 {
+    font-family: 'Press Start 2P';
+}
