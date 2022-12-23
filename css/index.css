@@ -15,7 +15,8 @@ para procurar de onde ela vem, e dizer o tipo de formato " format "  que ela pod
 
 /**/
 
-header {
+header { 
+    display: block;
     background-color: rgb(70, 104, 196);
     bottom: 600px;
 }
