@@ -17,7 +17,7 @@ para procurar de onde ela vem, e dizer o tipo de formato " format "  que ela pod
 
 header {
     background-color: rgb(70, 104, 196);
-    bottom:600px;
+    bottom: 600px;
 }
 
 nav {
@@ -58,7 +58,8 @@ a {
 }
 
 
-h1 {
+#nome {
+    display: inline-block;
     font-family: 'mine';
     font-size: 50px;
     color: #FFF;
@@ -74,6 +75,32 @@ h1 {
     box-shadow: 10px 10px 0px #000000;
 }
 
-h2 {
-    font-family: 'Press Start 2P';
+#cargo {
+    display: inline-block;
+    color: rgb(61, 204, 223);
+    position: absolute;
+    width: 590px;
+    height: 30px;
+    left: 131px;
+    top: 306px;
+    font-family: 'mine';
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 170px;
+    padding-right: 10px;
+    font-size: 45px;
+    line-height: 30px;
+}
+
+body,html{
+    margin: 0px;
+    height: 100%;
+}
+.bg{
+background: url(/assets/img/fundo.png);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+background-attachment: fixed;
+
 }
