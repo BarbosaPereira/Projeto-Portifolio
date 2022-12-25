@@ -8,7 +8,7 @@ para procurar de onde ela vem, e dizer o tipo de formato " format "  que ela pod
 
 @font-face {
     font-family: "mine";
-    src: url('/fontes/pixel1.otf') format('opentype'), url('/fontes/pixel2.otf') format('opentype');
+    src: url('../fontes/pixel1.otf') format('opentype'), url('../fontes/pixel2.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,19 +16,16 @@ para procurar de onde ela vem, e dizer o tipo de formato " format "  que ela pod
 /**/
 
 header { 
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
     background-color: rgb(70, 104, 196);
-    bottom: 600px;
+
 }
 
 nav {
-    display: inline-block;
-    position: absolute;
-    width: 802px;
-    height: 60px;
-    left: 1100px;
-    top: 30px;
-    margin-right: 100px;
+
+   text-align: right;
 }
 
 #icone {}
@@ -98,7 +95,7 @@ body,html{
     height: 100%;
 }
 .bg{
-background: url(/assets/img/fundo.png);
+background: url(../assets/img/fundo.png);
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center;
