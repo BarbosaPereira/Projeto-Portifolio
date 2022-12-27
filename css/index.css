@@ -15,32 +15,17 @@ para procurar de onde ela vem, e dizer o tipo de formato " format "  que ela pod
 
 /**/
 
-header { 
+header {
     display: flex;
     justify-content: space-between;
-    align-items:center ;
+    align-items: center;
     background-color: rgb(70, 104, 196);
-
+    border-bottom:5px solid #BA1F33
 }
 
 nav {
 
-   text-align: right;
-}
-
-#icone {}
-
-#button {
-    display: inline-block;
-    font-family: 'Press Start 2P';
-    background: #BA1F33;
-    height: 60px;
-    line-height: 60px;
-    ;
-    /*para centralizar o line-height tem que ter o mesmo tamanho do height*/
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 5px 5px 0px #000000;
+    text-align: right;
 }
 
 a {
@@ -55,6 +40,29 @@ a {
 
 }
 
+a::before {
+    display: inline-block;
+    content: "";
+    background-color: #BA1F33;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+#button{
+    display: inline-block;
+    font-family: 'Press Start 2P';
+    background: #BA1F33;
+    height: 60px;
+    line-height: 60px;
+    ;
+    /*para centralizar o line-height tem que ter o mesmo tamanho do height*/
+    padding-left: 15px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0px #000000;
+}
+#button:hover{
+    background: #189e18;
+}
 
 #nome {
     display: inline-block;
@@ -90,15 +98,16 @@ a {
     line-height: 30px;
 }
 
-body,html{
+body,html {
     margin: 0px;
     height: 100%;
 }
-.bg{
-background: url(../assets/img/fundo.png);
-background-repeat: no-repeat;
-background-size:cover;
-background-position: center;
-background-attachment: fixed;
+
+.bg {
+    background: url(../assets/img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 
 }
