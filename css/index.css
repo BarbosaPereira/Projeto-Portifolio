@@ -23,9 +23,17 @@ header {
     border-bottom:5px solid #BA1F33
 }
 
-nav {
 
+nav {
     text-align: right;
+}
+
+#icone {
+    transition: transform 250ms linear;;
+}
+
+#icone:hover {
+    transform: scale(1.2);
 }
 
 a {
@@ -37,7 +45,6 @@ a {
     text-decoration: none;
     /* para saber todos os modelos de text decoration só ir buscar no site (mdn texte decoration)*/
     margin-right: 30px;
-
 }
 
 a::before {
@@ -54,14 +61,16 @@ a::before {
     background: #BA1F33;
     height: 60px;
     line-height: 60px;
-    ;
+    text-shadow:2px 3px 0px #000000;
     /*para centralizar o line-height tem que ter o mesmo tamanho do height*/
     padding-left: 15px;
     padding-right: 20px;
     box-shadow: 5px 5px 0px #000000;
+    transition: transform 150ms linear;
 }
 #button:hover{
     background: #189e18;
+    transform: scale(1.1);
 }
 
 #nome {
@@ -79,6 +88,7 @@ a::before {
     left: 91px;
     top: 196px;
     box-shadow: 10px 10px 0px #000000;
+    text-shadow:5px 5px 0px #000000; ;
 }
 
 #cargo {
