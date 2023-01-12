@@ -47,7 +47,7 @@ a {
     margin-right: 30px;
 }
 
-a::before {
+a:not(:last-child)::before{
     display: inline-block;
     content: "";
     background-color: #BA1F33;
@@ -63,8 +63,7 @@ a::before {
     line-height: 60px;
     text-shadow:2px 3px 0px #000000;
     /*para centralizar o line-height tem que ter o mesmo tamanho do height*/
-    padding-left: 15px;
-    padding-right: 20px;
+    padding: 0px 20px;
     box-shadow: 5px 5px 0px #000000;
     transition: transform 150ms linear;
 }
