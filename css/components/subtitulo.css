@@ -1,0 +1,7 @@
+#cargo {
+    display: inline-block;
+    color: rgb(61, 204, 223);
+    font-family: 'Press start 2p';
+    font-style: normal;
+    text-shadow: 4px 4px 0 #000;
+}

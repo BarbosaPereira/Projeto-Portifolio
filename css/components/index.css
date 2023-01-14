@@ -47,7 +47,7 @@ a {
     margin-right: 30px;
 }
 
-a::before {
+a:not(:last-child)::before {
     display: inline-block;
     content: "";
     background-color: #BA1F33;
@@ -56,6 +56,7 @@ a::before {
 }
 
 #button{
+    
     display: inline-block;
     font-family: 'Press Start 2P';
     background: #BA1F33;
@@ -63,8 +64,7 @@ a::before {
     line-height: 60px;
     text-shadow:2px 3px 0px #000000;
     /*para centralizar o line-height tem que ter o mesmo tamanho do height*/
-    padding-left: 15px;
-    padding-right: 20px;
+    padding: 0px 20px;
     box-shadow: 5px 5px 0px #000000;
     transition: transform 150ms linear;
 }
@@ -73,51 +73,5 @@ a::before {
     transform: scale(1.1);
 }
 
-#nome {
-    display: inline-block;
-    font-family: 'mine';
-    font-size: 50px;
-    color: #FFF;
-    background: #3A4042;
-    position: absolute;
-    width: 627px;
-    height: 184px;
-    line-height: 100px;
-    padding-left: 110px;
-    padding-right: 10px;
-    left: 91px;
-    top: 196px;
-    box-shadow: 10px 10px 0px #000000;
-    text-shadow:5px 5px 0px #000000; ;
-}
 
-#cargo {
-    display: inline-block;
-    color: rgb(61, 204, 223);
-    position: absolute;
-    width: 590px;
-    height: 30px;
-    left: 131px;
-    top: 306px;
-    font-family: 'mine';
-    font-style: normal;
-    font-weight: 400;
-    padding-left: 170px;
-    padding-right: 10px;
-    font-size: 45px;
-    line-height: 30px;
-}
 
-body,html {
-    margin: 0px;
-    height: 100%;
-}
-
-.bg {
-    background: url(../assets/img/fundo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-
-}
