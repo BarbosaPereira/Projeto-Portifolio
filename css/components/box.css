@@ -1,8 +1,12 @@
 #box {
 background-color: #3A4042;
-width: 630px;
-height: 184px;
+width:630px;
+height: 142px;
 box-shadow: 10px 10px 0px #000000;
-left: 91px;
-top: 196px;
+text-align: center;
+padding: 42px 2px;
+}
+
+#box h1{
+    margin-bottom: 25px;
 }
