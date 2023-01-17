@@ -1,12 +1,12 @@
 #box {
+/* width: 630px; */
+display: inline-block;
 background-color: #3A4042;
-width:630px;
-height: 142px;
 box-shadow: 10px 10px 0px #000000;
 text-align: center;
-padding: 42px 2px;
+padding: 42px 25px;
 }
 
 #box h1{
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }

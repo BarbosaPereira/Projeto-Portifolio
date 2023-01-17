@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">  <!-- o lang = "pt-Br" serve para dizewr qual a linguagem que será usado no site-->
+<html lang="pt-BR"> <!-- o lang = "pt-Br" serve para dizewr qual a linguagem que será usado no site-->
 
 <head>
     <link rel="shortcut icon" href="./assets/img/patoicon.png" type="image/x-icon">
@@ -8,34 +8,40 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/index.css">
     <link rel="stylesheet" href="css/components/titulo.css">
     <link rel="stylesheet" href="css/components/subtitulo.css">
     <link rel="stylesheet" href="css/components/box.css">
+    <link rel="stylesheet" href="css/components/button.css">
 
 </head>
 
-    <body class="bg">  
-    
-        <header>
-                <!--target="blank" serve para quando clicar no "link" ele abrir outra aba, e não sobrepor-se-->
-                <img id = "icone" src="./assets/img/pato.png" width="150px" height="150px" alt="PATO">
+<body class="bg">
 
-            <nav>
-                <a href="" lang = "en"> Skills </a>
-                <a href=""> Projetos </a>
-                <a href=""> Sobre </a>
-                <a href=""> Contatos </a>
-                <a id="button" href="./assets/pdfs/cv.pdf" download="Curriculo Gabriel Barbosa"  lang = "en">Download CV </a>
-            </nav>
-           
-        </header>
-            <div id="box">
-                <h1 id="nome">Gabriel Barbosa</h1>
-                <h2 id="cargo">Developer</h2>
-            </div>
-    </body>
+    <header>
+        <!--target="blank" serve para quando clicar no "link" ele abrir outra aba, e não sobrepor-se-->
+        <img id="icone" src="./assets/img/pato.png" width="150px" height="150px" alt="PATO">
+
+        <nav>
+            <a href="" lang="en"> Skills </a>
+            <a href=""> Projetos </a>
+            <a href=""> Sobre </a>
+            <a href=""> Contatos </a>
+            <a class="button" href="./assets/pdfs/cv.pdf" download="Curriculo Gabriel Barbosa" lang="en">Download CV </a>
+        </nav>
+
+    </header>
+    <div id="box">
+        <h1 id="nome">Gabriel Barbosa</h1>
+        <h2 id="cargo">Developer</h2>
+    </div>
+<!-- class é mais usado para reaproveitar componentes, pois são mais flexiveis do que o id -->
+    <a class="button" href="./assets/pdfs/cv.pdf" download="Curriculo Gabriel Barbosa" lang="en">Download CV </a>
+    <a class="button" href="" lang="en">Contatos </a>
+</body>
+
 </html>
