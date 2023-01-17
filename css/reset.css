@@ -1,6 +1,9 @@
 /*se deve ir atras de algum reset sempre */
 
+body{
+    font-family: 'Press Start 2P';
+    }
 
 body{
     margin: 0;
-}
+    }
