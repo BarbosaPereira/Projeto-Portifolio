@@ -5,14 +5,6 @@ para procurar de onde ela vem, e dizer o tipo de formato " format "  que ela pod
 (TTF = truetype) (OTF = opentype), existem outros, mas os mais comuns são esses dois. 😊
 */
 
-
-@font-face {
-    font-family: "mine";
-    src: url('../fontes/pixel1.otf') format('opentype'), url('../fontes/pixel2.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /**/
 nav {
     height: 80px;
