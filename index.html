@@ -13,31 +13,32 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/index.css">
+    <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/titulo.css">
     <link rel="stylesheet" href="css/components/subtitulo.css">
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/button.css">
-
+    <link rel="stylesheet" href="css/components/action.css">
 </head>
 
 <body class="bg">
 
-    <header>
+    <header class="header">
         <!--target="blank" serve para quando clicar no "link" ele abrir outra aba, e não sobrepor-se-->
-        <img id="icone" src="./assets/img/pato.png" width="150px" height="150px" alt="PATO">
+        <img id="icone" src="./assets/img/pato.png" width="100px" height="100px" alt="PATO">
 
         <nav>
-            <a href="" lang="en"> Skills </a>
-            <a href=""> Projetos </a>
-            <a href=""> Sobre </a>
-            <a href=""> Contatos </a>
+            <a class="action" href="" lang="en"> Skills </a>
+            <a class="action" href=""> Projetos </a>
+            <a class="action" href=""> Sobre </a>
+            <a class="action" href=""> Contatos </a>
             <a class="button" href="./assets/pdfs/cv.pdf" download="Curriculo Gabriel Barbosa" lang="en">Download CV </a>
         </nav>
 
     </header>
-    <div id="box">
-        <h1 id="nome">Gabriel Barbosa</h1>
-        <h2 id="cargo">Developer</h2>
+    <div class="box">
+        <h1 class="title">Gabriel Barbosa</h1>
+        <h2 class="subtitle">Developer</h2>
     </div>
 <!-- class é mais usado para reaproveitar componentes, pois são mais flexiveis do que o id -->
     <a class="button" href="./assets/pdfs/cv.pdf" download="Curriculo Gabriel Barbosa" lang="en">Download CV </a>

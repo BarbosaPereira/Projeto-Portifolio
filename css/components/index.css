@@ -14,17 +14,8 @@ para procurar de onde ela vem, e dizer o tipo de formato " format "  que ela pod
 }
 
 /**/
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(70, 104, 196);
-    border-bottom:5px solid #BA1F33
-}
-
-
 nav {
+    height: 80px;
     text-align: right;
 }
 
@@ -36,24 +27,6 @@ nav {
     transform: scale(1.2);
 }
 
-a {
-    color: #FFF;
-    font-family: "Fira Code";
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    text-decoration: none;
-    /* para saber todos os modelos de text decoration só ir buscar no site (mdn texte decoration)*/
-    margin-right: 30px;
-}
-
-a:not(:last-child)::before{
-    display: inline-block;
-    content: "";
-    background-color: #BA1F33;
-    margin-right: 10px;
-    padding: 8px;
-}
 
 
 

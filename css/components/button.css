@@ -3,6 +3,8 @@
     display: inline-block;
     font-family: 'Press Start 2P';
     background: #BA1F33;
+    margin-right: 20px; 
+    text-decoration: none;
     height: 60px;
     line-height: 60px;
     text-shadow:2px 3px 0px #000000;
@@ -11,6 +13,7 @@
     box-shadow: 5px 5px 0px #000000;
     transition: transform 150ms linear;
 }
+
 .button:hover{
     background: #189e18;
     transform: scale(1.1);

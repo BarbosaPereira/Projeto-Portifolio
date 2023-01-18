@@ -1,0 +1,18 @@
+.action {
+    color: #FFF;
+    font-family: "Fira Code";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    /* para saber todos os modelos de text decoration só ir buscar no site (mdn texte decoration)*/
+    margin-right: 30px;
+}
+
+.action:not(:last-child)::before{
+    display: inline-block;
+    content: "";
+    background-color: #BA1F33;
+    margin-right: 10px;
+    padding: 8px;
+}
