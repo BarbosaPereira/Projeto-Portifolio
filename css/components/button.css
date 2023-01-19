@@ -7,7 +7,7 @@
     text-decoration: none;
     height: 60px;
     line-height: 60px;
-    text-shadow:2px 3px 0px #000000;
+    text-shadow:2px 2px 0px #000000;
     /*para centralizar o line-height tem que ter o mesmo tamanho do height*/
     padding: 0px 20px;
     box-shadow: 5px 5px 0px #000000;
@@ -17,4 +17,8 @@
 .button:hover{
     background: #189e18;
     transform: scale(1.1);
+}
+
+.banner .button{
+    background-color: #0984e3;
 }
