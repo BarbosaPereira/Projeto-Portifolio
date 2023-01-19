@@ -2,9 +2,9 @@
     /* background-image: url(../../assets/img/fundo.png); */
     /* background-repeat: no-repeat;
     background-size:100%; */
-    height: 800px;
+    height: 690px;
     border-bottom:5px solid #BA1F33;
-    padding: 90px;
+    padding: 90px 0px 20px 90px;
     box-sizing: border-box; /*quando colocar um pading ele respirar para dentro com o box-sizing:boder-box*/
     margin-bottom: 0;
 }
