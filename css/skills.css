@@ -1,0 +1,9 @@
+.section_skills{
+    background-color: rgb(90, 209, 173);
+    padding-bottom: 20px;
+}
+
+.section_skills img{
+    display: block;
+    margin: 60px 235px 0px 235px ;
+}

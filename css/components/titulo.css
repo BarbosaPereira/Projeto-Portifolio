@@ -4,3 +4,10 @@
     color: #FFF;
     text-shadow:5px 5px 0px #000000; ;
 }
+
+.section_skills .title{
+    color:#0984e3;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+}

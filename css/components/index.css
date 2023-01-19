@@ -6,20 +6,11 @@ para procurar de onde ela vem, e dizer o tipo de formato " format "  que ela pod
 */
 
 /**/
-nav {
-    height: 80px;
-    text-align: right;
-}
 
 #icone {
-    transition: transform 250ms linear;;
+    transition: transform 250ms linear;
 }
 
 #icone:hover {
     transform: scale(1.2);
 }
-
-
-
-
-
