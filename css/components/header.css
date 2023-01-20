@@ -1,13 +1,13 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0984e3;
-    /* background-color: rgb(70, 104, 196); */
-    border-bottom:5px solid #BA1F33
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0984e3;
+  /* background-color: rgb(70, 104, 196); */
+  border-bottom: 5px solid #ba1f33;
 }
 
 .header nav {
-    height: 80px;
-    text-align: right;
+  text-align: right;
 }

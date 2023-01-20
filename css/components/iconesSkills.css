@@ -1,0 +1,9 @@
+.icones {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.title {
+    margin: 4rem !important;
+}
