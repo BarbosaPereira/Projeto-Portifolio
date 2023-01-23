@@ -6,11 +6,11 @@ para procurar de onde ela vem, e dizer o tipo de formato " format "  que ela pod
 */
 
 /**/
-
-#icone {
+.icone {
     transition: transform 250ms linear;
 }
 
-#icone:hover {
+.icone:hover {
     transform: scale(1.2);
 }
+

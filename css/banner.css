@@ -21,11 +21,15 @@
     /* z-index serve para subir ou descer um nivel o elemento no eixo Z  */
 }
 
-/* Mantém a header fixa no topo da tela */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
+.banner .wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
 
-  
+.banner .navigation {
+    display: flex;
+    flex-direction: row;
+    margin: 0 25px;
+    align-content: space-around;
+}

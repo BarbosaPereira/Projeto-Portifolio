@@ -11,3 +11,11 @@
 .header nav {
   text-align: right;
 }
+
+/* Mantém a header fixa no topo da tela */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+

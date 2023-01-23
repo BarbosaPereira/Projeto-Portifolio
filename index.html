@@ -1,92 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <!-- o lang = "pt-Br" serve para dizewr qual a linguagem que será usado no site-->
+<!-- o lang = "pt-Br" serve para dizewr qual a linguagem que será usado no site-->
 
-  <head>
-    <link
-      rel="shortcut icon"
-      href="./assets/img/patoicon.png"
-      type="image/x-icon"
-    />
-    <title>BarbosaPortifólio</title>
-    <meta charset="utf-8" />
+<head>
+  <link rel="shortcut icon" href="./assets/img/patoicon.png" type="image/x-icon" />
+  <title>BarbosaPortifólio</title>
+  <meta charset="utf-8" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/components/index.css" />
-    <link rel="stylesheet" href="css/components/header.css" />
-    <link rel="stylesheet" href="css/components/titulo.css" />
-    <link rel="stylesheet" href="css/components/subtitulo.css" />
-    <link rel="stylesheet" href="css/components/box.css" />
-    <link rel="stylesheet" href="css/components/button.css" />
-    <link rel="stylesheet" href="css/components/action.css" />
-    <link rel="stylesheet" href="css/components/banner.css" />
-    <link rel="stylesheet" href="css/skills.css" />
-    <link rel="stylesheet" href="css/components/iconesSkills.css" />
-  </head>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/components/icon.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/components/titulo.css" />
+  <link rel="stylesheet" href="css/components/subtitulo.css" />
+  <link rel="stylesheet" href="css/components/box.css" />
+  <link rel="stylesheet" href="css/components/button.css" />
+  <link rel="stylesheet" href="css/components/action.css" />
+  <link rel="stylesheet" href="css/banner.css" />
+  <link rel="stylesheet" href="css/skills.css" />
+  <link rel="stylesheet" href="css/components/iconesSkills.css" />
+</head>
 
-  <body>
-    <header class="header sticky">
-      <!--target="blank" serve para quando clicar no "link" ele abrir outra aba, e não sobrepor-se-->
-      <img
-        id="icone"
-        src="./assets/img/pato.png"
-        width="100px"
-        height="100px"
-        alt="PATO"
-      />
-      <nav>
-        <a class="action" href="" lang="en"> Skills </a>
-        <a class="action" href=""> Projetos </a>
-        <a class="action" href=""> Sobre </a>
-        <a class="action" href=""> Contatos </a>
-        <a
-          class="button"
-          href="./assets/pdfs/cv.pdf"
-          download="Curriculo Gabriel Barbosa"
-          lang="en"
-          >Download CV
-        </a>
-      </nav>
-    </header>
-    <section class="banner">
+<body>
+  <header class="header sticky">
+    <!--target="blank" serve para quando clicar no "link" ele abrir outra aba, e não sobrepor-se-->
+    <img class="icone" src="./assets/img/pato.png" width="100px" height="100px" alt="PATO" />
+    <nav>
+      <a class="action" href="" lang="en"> Skills </a>
+      <a class="action" href=""> Projetos </a>
+      <a class="action" href=""> Sobre </a>
+      <a class="action" href=""> Contatos </a>
+      <a class="button" href="./assets/pdfs/cv.pdf" download="Curriculo Gabriel Barbosa" lang="en">Download CV
+      </a>
+    </nav>
+  </header>
+  <section class="banner">
+    <img class= "icon" src="/assets/img/pato.png" alt="pato falante">
+    <div class="wrapper">
       <!-- <img src="./assets/img/fundo.png" alt="imagem de pato de fundo" /> -->
       <div class="box">
         <h1 class="title">Gabriel Barbosa</h1>
         <h2 class="subtitle">Developer</h2>
       </div>
       <!-- class é mais usado para reaproveitar componentes, pois são mais flexiveis do que o id -->
-      <a
-        class="button"
-        href="./assets/pdfs/cv.pdf"
-        download="Curriculo Gabriel Barbosa"
-        lang="en"
-        >Download CV
-      </a>
-      <a class="button" href="" lang="en">Contatos </a>
-    </section>
+      <div class="navigation">
+        <a class="button" href="./assets/pdfs/cv.pdf" download="Curriculo Gabriel Barbosa" lang="en">Download CV
+        </a>
+        <a class="button" href="" lang="en">Contatos </a>
+      </div>
+    </div>
+  </section>
 
-    <section class="section_skills">
-      <div>
-        <img
+  <section class="section_skills">
+    <div>
+      <!-- <img
           class="skillsFundo"
           src="./assets/img/fundoskills.svg"
           alt="fundo skills"
-        />
+        /> -->
 
-        <h2 class="title">Skills</h2>
-        <div class="icones">
-          <img src="./assets/img/icones-skills/html.png" alt="Html" />
-          <img src="./assets/img/icones-skills/css.png" alt="Css" />
-          <img src="./assets/img/icones-skills/Js.png" alt="JavaScript" />
-        </div>
+      <h2 class="title">Skills</h2>
+      <div class="icones">
+        <img src="./assets/img/icones-skills/html.png" alt="Html" />
+        <img src="./assets/img/icones-skills/css.png" alt="Css" />
+        <img src="./assets/img/icones-skills/Js.png" alt="JavaScript" />
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>
