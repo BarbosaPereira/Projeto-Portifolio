@@ -1,5 +1,5 @@
 .banner{
-    background: lightblue url("/assets/img/fundo.png");
+    background: lightblue url("../assets/img/fundo.png");
     background-repeat: no-repeat;
     background-size: cover, contain;
     /* Background do baner */
