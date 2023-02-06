@@ -1,0 +1,12 @@
+.projetos{
+    background: black;
+}
+
+.projetos .link_projetos{
+    background-color: aqua;
+}
+
+.projetos .space_projects{
+    width: 100%;
+    background-color: aquamarine;
+}
