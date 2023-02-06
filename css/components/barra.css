@@ -1,0 +1,18 @@
+.section_skills .evolucao .barra{
+    background-color: green;
+    display: inline-flex;
+    margin: 25px 0px;
+    height:30px;
+    width: 320px;;
+}
+
+.evolucao {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra{
+  color: green;
+  border: 05px solid black;
+}
