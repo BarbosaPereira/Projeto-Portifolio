@@ -1,12 +1,19 @@
 .projetos{
     background: black;
+    border-bottom:5px solid #fff;
 }
 
 .projetos .link_projetos{
-    background-color: aqua;
+    background-color:#4C5B84;
+    box-shadow: 10px 10px 0px #fff;
 }
 
-.projetos .space_projects{
+.projetos .space-projects{
+    margin-top: 50px;
+    padding-bottom: 50px;
     width: 100%;
-    background-color: aquamarine;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    
 }
