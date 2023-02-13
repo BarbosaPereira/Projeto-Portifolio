@@ -2,18 +2,14 @@
     background: black;
     border-bottom:5px solid #fff;
 }
-
-.projetos .link_projetos{
-    background-color:#4C5B84;
-    box-shadow: 10px 10px 0px #fff;
-}
-
 .projetos .space-projects{
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 50px;
-    width: 100%;
+    max-width: 960px;
     background-color:black;
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }

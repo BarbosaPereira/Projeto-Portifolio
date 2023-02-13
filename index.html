@@ -21,10 +21,10 @@
   <link rel="stylesheet" href="css/components/button.css" />
   <link rel="stylesheet" href="css/components/action.css" />
   <link rel="stylesheet" href="css/banner.css" />
-  <link rel="stylesheet" href="css/skills.css" />
-  <link rel="stylesheet" href="css/components/iconesSkills.css" />
-  <link rel="stylesheet" href="css/components/barra.css">
+  <link rel="stylesheet" href="css/section-skills.css" />
   <link rel="stylesheet" href="css/projetos.css">
+  <link rel="stylesheet" href="css/components/skill.css">
+  <link rel="stylesheet" href="css/components/card-projects.css">
 </head>
 
 <body>
@@ -59,68 +59,54 @@
 
   <section class="section_skills">
     <div>
-      <!-- <img
-          class="skillsFundo"
-          src="./assets/img/fundoskills.svg"
-          alt="fundo skills"
-        /> -->
-
       <h2 class="title">Skills</h2>
 
-      <dl>
-        <dt>HTML</dt>
-        <dd>
-          <img src="./assets/img/icones-skills/html.png" alt="">
-        </dd>
-        <dd>
-          <progress max="100" value="30"> 70% </progress>
-        </dd>
-      </dl>
+      <div class="list_skills">
 
-      <dl>
-        <dt>CSS</dt>
-        <dd>
-          <img src="./assets/img/icones-skills/css.png" alt="">
-        </dd>
-        <dd>
-          <progress max="100" value="30"> 30%</progress>
-        </dd>
-      </dl>
+        <dl class="skill">
+          <dd class="icon">
+            <img src="./assets/img/icones-skills/html.png" alt="">
+          </dd>
+          <dt class="title">HTML</dt>
+        </dl>
 
-      <dl>
-        <dt>JavaScript</dt>
-        <dd>
-          <img src="./assets/img/icones-skills/Js.png" alt="">
-        </dd>
-        <dd>
-          <progress max="100" value="30"> 70% </progress>
-        </dd>
-      </dl>
-      <div class="subtitle">
-        <h3 class="nskills">Html</h3>
-        <h3 class="nskills">Css</h3>
-        <h3 class="nskills">JavaScript</h3>
+        <dl class="skill">
+          <dd class="icon">
+            <img src="./assets/img/icones-skills/css.png" alt="">
+          </dd>
+          <dt class="title">CSS</dt>
+        </dl>
+
+        <dl class="skill">
+          <dd class="icon">
+            <img src="./assets/img/icones-skills/Js.png" alt="">
+          </dd>
+          <dt class="title">Java <br> Script</dt>
+        </dl>
+
       </div>
-      <div class="icones">
-        <img src="./assets/img/icones-skills/html.png" alt="Html" />
-        <img src="./assets/img/icones-skills/css.png" alt="Css" />
-        <img src="./assets/img/icones-skills/Js.png" alt="JavaScript" />
-      </div>
-      <div class="evolucao">
-        <div class="barra">/</div>
-        <div class="barra">/</div>
-        <div class="barra">/</div>
-      </div>
+
     </div>
+
   </section>
   <section class="projetos">
+
     <h2 class="title">Projetos</h2>
+
     <div class="space-projects">
-      <a class="link_projetos" href="https://barbosapereira.github.io/Projeto-Portifolio/">
+
+      <a class="card-projects" href="https://barbosapereira.github.io/Projeto-Portifolio/">
         <img src="./assets/img/pato.png" width="300px" height="300px" alt="BarbosaPortifólio" />
       </a>
+
+      <a class="card-projects" href="https://barbosapereira.github.io/Projeto-Portifolio/">
+        <img src="./assets/img/pato.png" width="300px" height="300px" alt="BarbosaPortifólio" />
+      </a>
+      
     </div>
+
   </section>
+
   <section class="sobre"></section>
   <section class="contatos"></section>
 </body>
