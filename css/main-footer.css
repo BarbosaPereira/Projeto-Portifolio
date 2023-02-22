@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.icons-footer{
+    display: flex;
+    padding-top:15px;
+    padding-bottom:15px;
+    width: 130px;
+    justify-content: space-between;
+}

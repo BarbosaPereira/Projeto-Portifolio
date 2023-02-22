@@ -1,0 +1,31 @@
+.sobre{
+    background-color: #6edd60;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center ;
+    justify-content: center;
+}
+
+.sobreMim{
+    font-family: "Fira code";
+    display:flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 620px;
+    justify-content:center;
+    margin-right: 50px;
+}
+.sobreMim{
+    background-color: #00BCD4;
+    box-shadow: 10px 10px 0px #000000;
+}
+
+.fotinha{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
