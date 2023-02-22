@@ -33,7 +33,7 @@
 <body>
   <header class="header sticky">
     <!--target="blank" serve para quando clicar no "link" ele abrir outra aba, e não sobrepor-se-->
-    <img class="icone" src="./assets/img/pato.png" width="100px" height="100px" alt="PATO" />
+    <a href="#banner"><img class="icone" src="./assets/img/pato.png" width="100px" height="100px" alt="PATO" /></a>
     <nav>
       <a class="action" href="#section-skills" lang="en"> Skills </a>
       <a class="action" href="#section-projetos"> Projetos </a>
@@ -46,9 +46,9 @@
 
   <section class="banner">
     <img class="icon" src="/assets/img/pato.png" alt="pato falante">
-    <div class="wrapper">
+    <a name="banner"><div class="wrapper"></a>
       <!-- <img src="./assets/img/fundo.png" alt="imagem de pato de fundo" /> -->
-      <div class="box">
+     <div class="box">
         <h1 class="title">Gabriel Barbosa</h1>
         <h2 class="subtitle">Developer</h2>
       </div>
@@ -59,9 +59,10 @@
         <a class="button" href="" lang="en">Contatos </a>
       </div>
     </div>
+    <a name="section-skills"></a>
   </section>
 
-  <a name="section-skills"></a>
+ 
 
   <section class="section_skills">
     <div>
@@ -89,14 +90,16 @@
           </dd>
           <dt class="title">Java <br> Script</dt>
         </dl>
+        <!-- esse link aqui é para poder redirecionar para os projetos, na mesma página -->
+        <a name="section-projetos"></a>
 
       </div>
 
     </div>
-
+   
   </section>
 
-  <a name="section-projetos"></a>
+  
 
   <section class="projetos">
 
