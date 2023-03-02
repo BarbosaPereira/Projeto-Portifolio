@@ -1,35 +1,35 @@
-.banner{
-    background: lightblue url("../assets/img/fundo.png");
-    background-repeat: no-repeat;
-    background-size: cover, contain;
-    /* Background do baner */
-    height: 100vh;
-    /* vh = viewHeight =  altura da tela */
-    border-bottom:5px solid #BA1F33;
-    padding: 90px 0px 20px 90px;
-    box-sizing: border-box; /*quando colocar um pading ele respirar para dentro com o box-sizing:boder-box*/
-    margin-bottom: 0;
+.banner {
+  background: lightblue url("../assets/img/fundo.png");
+  background-repeat: no-repeat;
+  background-size: cover, contain;
+  /* Background do baner */
+  height: 100vh;
+  /* vh = viewHeight =  altura da tela */
+  border-bottom: 5px solid #ba1f33;
+  padding: 90px 0px 20px 90px;
+  box-sizing: border-box; /*quando colocar um pading ele respirar para dentro com o box-sizing:boder-box*/
+  margin-bottom: 0;
 }
 
-.banner img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top:0;
-    left: 0;
-    z-index: -1; 
-    /* z-index serve para subir ou descer um nivel o elemento no eixo Z  */
+.banner img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /* z-index serve para subir ou descer um nivel o elemento no eixo Z  */
 }
 
-.banner .wrapper{
-    display: flex;
-    flex-direction: column;
-    width: 700px;
+.banner .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
 }
 
 .banner .navigation {
-    display: flex;
-    flex-direction: row;
-    margin: 0 25px;
-    align-content: space-around;
+  display: flex;
+  flex-direction: row;
+  margin: 0 25px;
+  align-content: space-around;
 }

@@ -1,153 +1,205 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<!-- o lang = "pt-Br" serve para dizewr qual a linguagem que será usado no site-->
+  <!-- o lang = "pt-Br" serve para dizewr qual a linguagem que será usado no site-->
 
-<head>
-  <link rel="shortcut icon" href="./assets/img/patoicon.png" type="image/x-icon" />
-  <title>BarbosaPortifólio</title>
-  <meta charset="utf-8" />
+  <head>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/patoicon.png"
+      type="image/x-icon"
+    />
+    <title>BarbosaPortifólio</title>
+    <meta charset="utf-8" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
-    rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/components/icon.css" />
-  <link rel="stylesheet" href="css/header.css" />
-  <link rel="stylesheet" href="css/components/titulo.css" />
-  <link rel="stylesheet" href="css/components/subtitulo.css" />
-  <link rel="stylesheet" href="css/components/box.css" />
-  <link rel="stylesheet" href="css/components/button.css" />
-  <link rel="stylesheet" href="css/components/action.css" />
-  <link rel="stylesheet" href="css/banner.css" />
-  <link rel="stylesheet" href="css/section-skills.css" />
-  <link rel="stylesheet" href="css/projetos.css">
-  <link rel="stylesheet" href="css/components/skill.css">
-  <link rel="stylesheet" href="css/components/card-projects.css">
-  <link rel="stylesheet" href="css/section-sobre.css">
-  <link rel="stylesheet" href="css/main-footer.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/components/icon.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/components/titulo.css" />
+    <link rel="stylesheet" href="css/components/subtitulo.css" />
+    <link rel="stylesheet" href="css/components/box.css" />
+    <link rel="stylesheet" href="css/components/button.css" />
+    <link rel="stylesheet" href="css/components/action.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+    <link rel="stylesheet" href="css/section-skills.css" />
+    <link rel="stylesheet" href="css/projetos.css" />
+    <link rel="stylesheet" href="css/components/skill.css" />
+    <link rel="stylesheet" href="css/components/card-projects.css" />
+    <link rel="stylesheet" href="css/section-sobre.css" />
+    <link rel="stylesheet" href="css/main-footer.css" />
+    <link rel="stylesheet" href="css/form-page.css" />
+  </head>
 
-</head>
-
-<body>
-  <header class="header sticky">
-    <!--target="blank" serve para quando clicar no "link" ele abrir outra aba, e não sobrepor-se-->
-    <a href="#banner"><img class="icone" src="./assets/img/pato.png" width="100px" height="100px" alt="PATO" /></a>
-    <nav>
-      <a class="action" href="#section-skills" lang="en"> Skills </a>
-      <a class="action" href="#section-projetos"> Projetos </a>
-      <a class="action" href="#foto"> Sobre </a>
-      <a class="action" href=""> Contatos </a>
-      <a class="button" href="./assets/pdfs/cv.pdf" download="Curriculo Gabriel Barbosa" lang="en">Download CV
-      </a>
-    </nav>
-  </header>
-
-  <section class="banner">
-    <img class="icon" src="/assets/img/pato.png" alt="pato falante">
-    <a name="banner"><div class="wrapper"></a>
-      <!-- <img src="./assets/img/fundo.png" alt="imagem de pato de fundo" /> -->
-     <div class="box">
-        <h1 class="title">Gabriel Barbosa</h1>
-        <h2 class="subtitle">Developer</h2>
-      </div>
-      <!-- class é mais usado para reaproveitar componentes, pois são mais flexiveis do que o id -->
-      <div class="navigation">
-        <a class="button" href="./assets/pdfs/cv.pdf" download="Curriculo Gabriel Barbosa" lang="en">Download CV
+  <body>
+    <header class="header sticky">
+      <!--target="blank" serve para quando clicar no "link" ele abrir outra aba, e não sobrepor-se-->
+      <a href="#banner"
+        ><img
+          class="icone"
+          src="./assets/img/pato.png"
+          width="100px"
+          height="100px"
+          alt="PATO"
+      /></a>
+      <nav>
+        <a class="action" href="#section-skills" lang="en"> Skills </a>
+        <a class="action" href="#section-projetos"> Projetos </a>
+        <a class="action" href="#foto"> Sobre </a>
+        <a class="action" href=""> Contatos </a>
+        <a
+          class="button"
+          href="./assets/pdfs/cv.pdf"
+          download="Curriculo Gabriel Barbosa"
+          lang="en"
+          >Download CV
         </a>
-        <a class="button" href="" lang="en">Contatos </a>
-      </div>
-    </div>
-    <a name="section-skills"></a>
-  </section>
-
- 
-
-  <section class="section_skills">
-    <div>
-      <h2 class="title">Skills</h2>
-
-      <div class="list_skills">
-
-        <dl class="skill">
-          <dd class="icon">
-            <img src="./assets/img/icones-skills/html.png" alt="">
-          </dd>
-          <dt class="title">HTML</dt>
-        </dl>
-
-        <dl class="skill">
-          <dd class="icon">
-            <img src="./assets/img/icones-skills/css.png" alt="">
-          </dd>
-          <dt class="title">CSS</dt>
-        </dl>
-
-        <dl class="skill">
-          <dd class="icon">
-            <img src="./assets/img/icones-skills/Js.png" alt="">
-          </dd>
-          <dt class="title">Java <br> Script</dt>
-        </dl>
-        <!-- esse link aqui é para poder redirecionar para os projetos, na mesma página -->
-        <a name="section-projetos"></a>
-
+      </nav>
+    </header>
+    <section class="banner">
+      <img class="icon" src="/assets/img/pato.png" alt="pato falante" />
+      <a name="banner"></a>
+      <div class="wrapper">
+        <!-- <img src="./assets/img/fundo.png" alt="imagem de pato de fundo" /> -->
+        <div class="box">
+          <h1 class="title">Gabriel Barbosa</h1>
+          <h2 class="subtitle">Developer</h2>
+        </div>
+        <!-- class é mais usado para reaproveitar componentes, pois são mais flexiveis do que o id -->
+        <div class="navigation">
+          <a
+            class="button"
+            href="./assets/pdfs/cv.pdf"
+            download="Curriculo Gabriel Barbosa"
+            lang="en"
+            >Download CV
+          </a>
+          <a class="button" href="" lang="en">Contatos </a>
+        </div>
       </div>
 
-    </div>
-   
-  </section>
+      <a name="section-skills"></a>
+    </section>
 
-  
+    <section class="section_skills">
+      <div>
+        <h2 class="title">Skills</h2>
 
-  <section class="projetos">
+        <div class="list_skills">
+          <dl class="skill">
+            <dd class="icon">
+              <img src="./assets/img/icones-skills/html.png" alt="" />
+            </dd>
+            <dt class="title">HTML</dt>
+          </dl>
 
-    <h2 class="title">Projetos</h2>
+          <dl class="skill">
+            <dd class="icon">
+              <img src="./assets/img/icones-skills/css.png" alt="" />
+            </dd>
+            <dt class="title">CSS</dt>
+          </dl>
 
-    <div class="space-projects">
-
-      <a class="card-projects" href="https://barbosapereira.github.io/Projeto-Portifolio/">
-        <img src="./assets/img/pato.png" width="300px" height="300px" alt="BarbosaPortifólio" />
-      </a>
-
-      <a class="card-projects" href="https://barbosapereira.github.io/Projeto-Portifolio/">
-        <img src="./assets/img/pato.png" width="300px" height="300px" alt="BarbosaPortifólio" />
-      </a>
-
-    </div>
-
-  </section>
-
-  <section class="section-sobre">
-
-    <div class="sobre">
-      <div class="sobreMim">
-        <h2 class="title">Sobre mim</h2>
-        <h3> Oi,eu me chamou Gabriel Barbosa, sou um
-          estudante de Analise e desenvolvimento de Sistemas, tenho 20 anos
-          e estou estudando sobre o mundo da programação, como vocês podem ver
-          este é meu portifólio inicial, de muitos provavelmente, enfim fico
-          muito grato a todos que chegaram aqui e espero que tenham gostado do
-          meu projeto e fiquem a vontade para olhar os outros! </h3>hhahahaha
+          <dl class="skill">
+            <dd class="icon">
+              <img src="./assets/img/icones-skills/Js.png" alt="" />
+            </dd>
+            <dt class="title">
+              Java <br />
+              Script
+            </dt>
+          </dl>
+          <!-- esse link aqui é para poder redirecionar para os projetos, na mesma página -->
+          <a name="section-projetos"></a>
+        </div>
       </div>
-      <a name="foto"></a>
-      <div class="fotinha">
-        <img src="./assets/img/eu.png" alt="minha foto" width="350px" height="350px">
+    </section>
+
+    <section class="projetos">
+      <h2 class="title">Projetos</h2>
+
+      <div class="space-projects">
+        <a
+          class="card-projects"
+          href="https://barbosapereira.github.io/Projeto-Portifolio/"
+        >
+          <img
+            src="./assets/img/pato.png"
+            width="300px"
+            height="300px"
+            alt="BarbosaPortifólio"
+          />
+        </a>
+
+        <a
+          class="card-projects"
+          href="https://barbosapereira.github.io/Projeto-Portifolio/"
+        >
+          <img
+            src="./assets/img/pato.png"
+            width="300px"
+            height="300px"
+            alt="BarbosaPortifólio"
+          />
+        </a>
       </div>
-    </div>
+    </section>
 
-  </section>
-  <section class="contatos"></section>
-
-  <footer class="footer">
-    <div class="icons-footer">
-      <a href="https://www.linkedin.com/in/gabriel-barbosa-985681233/" target="_blank">
-        <img src="./assets/img/icon-linkedin.png" alt="link do meu linkedin"></a>
-      <a href="https://github.com/BarbosaPereira" target="_blank">
-        <img src="./assets/img/icon-github.png" alt="link do meu github"></a>
+    <section class="section-sobre">
+      <div class="sobre">
+        <div class="sobreMim">
+          <h2 class="title">Sobre mim</h2>
+          <h3>
+            Oi,eu me chamou Gabriel Barbosa, sou um estudante de Analise e
+            desenvolvimento de Sistemas, tenho 20 anos e estou estudando sobre o
+            mundo da programação, como vocês podem ver este é meu portifólio
+            inicial, de muitos provavelmente, enfim fico muito grato a todos que
+            chegaram aqui e espero que tenham gostado do meu projeto e fiquem a
+            vontade para olhar os outros!
+          </h3>
+        </div>
+        <a name="foto"></a>
+        <div class="fotinha">
+          <img
+            src="./assets/img/eu.png"
+            alt="minha foto"
+            width="350px"
+            height="350px"
+          />
+        </div>
       </div>
-  </footer>
-</body>
+    </section>
 
+    <form class="form">
+      <label class="main-label" for="name">Nome</label>
+      <input class="main-input" id="name" type="text" />
+
+      <label class="main-email" for="email">Email</label>
+      <input class="main-input" id="email" type="email" />
+
+      <label for="message">Mensagem</label>
+      <textarea class="main-input" id="message"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <footer class="footer">
+      <div class="icons-footer">
+        <a
+          href="https://www.linkedin.com/in/gabriel-barbosa-985681233/"
+          target="_blank"
+        >
+          <img src="./assets/img/icon-linkedin.png" alt="link do meu linkedin"
+        /></a>
+        <a href="https://github.com/BarbosaPereira" target="_blank">
+          <img src="./assets/img/icon-github.png" alt="link do meu github"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>
