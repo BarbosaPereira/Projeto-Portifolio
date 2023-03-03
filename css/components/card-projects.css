@@ -1,9 +1,9 @@
-.projetos .card-projects{
-    background-color:#4C5B84;
-    box-shadow: 10px 10px 0px #fff;
-    margin-bottom: 50px;
+.projetos .card-projects {
+  background-color: #4c5b84;
+  box-shadow: 10px 10px 0px #fff;
+  margin-bottom: 50px;
 }
 
-.projetos .card-projects:nth-child(even){
-    margin-left: 100px;
+.projetos .card-projects:nth-child(even) {
+  margin-left: 100px;
 }

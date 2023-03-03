@@ -1,27 +1,40 @@
-.button{
-    color: #fff;
-    display: inline-block;
-    font-family: 'Press Start 2P';
-    background: #BA1F33;
-    /* margin-right: 20px;  */
-    margin: auto 1rem;
-    text-decoration: none;
-    height: 60px;
-    line-height: 60px;
-    text-shadow:2px 2px 0px #000000;
-    /*para centralizar o line-height tem que ter o mesmo tamanho do height*/
-    padding: 0px 20px;
-    box-shadow: 5px 5px 0px #000000;
-    transition: transform 150ms linear;
+.button {
+  color: #fff;
+  display: inline-block;
+  font-family: "Press Start 2P";
+  background: #ba1f33;
+  /* margin-right: 20px;  */
+  margin: auto 1rem;
+  text-decoration: none;
+  height: 60px;
+  line-height: 60px;
+  text-shadow: 2px 2px 0px #000000;
+  /*para centralizar o line-height tem que ter o mesmo tamanho do height*/
+  padding: 0px 20px;
+  box-shadow: 5px 5px 0px #000000;
+  transition: transform 150ms linear;
 }
 
-.button:hover{
-    background: #189e18;
-    transform: scale(1.1);
+.button:hover {
+  background: #189e18;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
-.banner .button{
-    background-color: #0984e3;
-    width: 280px;
-    text-align: center;
+.banner .button {
+  background-color: #0984e3;
+  width: 280px;
+  text-align: center;
+}
+
+.button.-enviar {
+  width: 100%;
+  font-size: 24px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.button.-enviar:hover {
+  transform: scale(1.02);
+  background-color: #ba1f33;
 }

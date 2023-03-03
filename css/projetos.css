@@ -1,15 +1,15 @@
-.projetos{
-    background: black;
-    border-bottom:5px solid #fff;
+.projetos {
+  background: black;
+  border-bottom: 5px solid #fff;
 }
-.projetos .space-projects{
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 50px;
-    max-width: 960px;
-    background-color:black;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.projetos .space-projects {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  max-width: 960px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
