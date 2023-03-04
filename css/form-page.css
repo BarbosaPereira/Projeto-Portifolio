@@ -20,4 +20,5 @@
 .main-input.-textarea {
   height: 320px;
   margin-bottom: 0px;
+  resize: none;
 }
